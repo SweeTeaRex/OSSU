@@ -75,6 +75,23 @@ def get_letter_frequencies(word):
         is a letter in word and the corresponding int
         is the frequency of the letter in word
     """
+    for index in word:
+        # print("!!!!!!!!!!!!!!!!!!!!!!!!!word at beginning: ", index)
+        wordCount = []
+        
+        if index in word is index:
+            wordCount = wordCount + 1
+            
+
+        else:
+            wordCount = wordCount
+    
+    #
+    # print("!!!!!!!!!!!!!!!!!!!!!!!word list inside function:", word)
+    # print("!!!!!!!!!!!!!!!!!!!!!!!word count inside function:", wordCount)
+    return word
+            
+
     pass
 
 
@@ -103,6 +120,10 @@ def calculate_similarity_score(freq_dict1, freq_dict2):
          all frequencies in both dict1 and dict2.
         Return 1-(DIFF/ALL) rounded to 2 decimal places
     """
+    print("!!!!!!!freq_dict1: ", freq_dict1)
+    print("!!!!!!!!!freq_dict2: ", freq_dict2)
+
+    
     pass
 
 
